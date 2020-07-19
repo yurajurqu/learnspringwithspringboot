@@ -40,6 +40,63 @@ function formatDate(input) {
     return new Date(parts[fmt['yyyy']], parts[fmt['mm']]-1, parts[fmt['dd']]);
 };
 
+function startReservation(roomId){
+    $("#reservationRoomId").val(roomId);
+    $("#reservationDatepicker").val($("#datepicker").val());
+    $('#reservationModal').modal('show');
+}
+function reserveRoom(){
+    var request ={
+        "roomId": $("#reservationRoomId").val(),
+        "guestId": $("#reservationGuestId").val(),
+        "dateString": $("#reservationDatepicker").val()
+    };
+    console.log("Start reservation request");
+    console.log(request);
+    $.ajax({
+        type: "POST",
+        url: "reservations",
+        data: JSON.stringify(request), // serializes the form's elements.
+        dataType: 'json',
+        contentType:"application/json; charset=utf-8",
+        success: function(data)
+        {
+            if(data.status){
+                $('#reservationModal').modal('hide');
+                reloadPageForDateSelection();
+            }
+        }
+    });
+
+}function createGuest(){
+    var request={
+        "id": $("#id").val(),
+        "firstName":$("#firstName").val(),
+        "lastName":$("#lastName").val(),
+        "emailAddress":$("#email").val(),
+        "address":$("#address").val(),
+        "country":$("#country").val(),
+        "state":$("#state").val(),
+        "phoneNumber":$("#phone").val()
+    };
+    console.log("Start reservation request");
+    console.log(request);
+    $.ajax({
+        type: "POST",
+        url: "guests",
+        data: JSON.stringify(request), // serializes the form's elements.
+        dataType: 'json',
+        contentType:"application/json; charset=utf-8",
+        success: function(data)
+        {
+            if(data!=null){
+                $('#registerGuestModal').modal('hide');
+                reloadPageForDateSelection();
+            }
+        }
+    });
+
+}
 $(document).ready(function(){
     setPicker();
     setInitialDate();

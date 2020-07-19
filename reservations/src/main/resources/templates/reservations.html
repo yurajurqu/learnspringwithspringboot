@@ -29,6 +29,11 @@
         <h1>Welcome to the Reservations Page</h1>
     </div>
     <div class="input-group">
+        <button class="btn btn-primary"
+                data-toggle="modal" data-target="#registerGuestModal"
+        >Register guest</button>
+    </div>
+    <div class="input-group">
         <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></span>
         <input type="text" class="form-control" id="datepicker" aria-describedby="basic-addon1"/>
     </div>
@@ -38,13 +43,72 @@
             <td>Room</td>
             <td>Room Number</td>
             <td>Guest</td>
+            <td>Actions</td>
         </tr>
         <tr th:each="roomReservation: ${roomReservations}">
             <td th:text="${roomReservation.roomName}">Room Name</td>
             <td th:text="${roomReservation.roomNumber}">Room Number</td>
             <td th:text="${roomReservation.lastName}!=null? ${roomReservation.lastName} + ', ' + ${roomReservation.firstName} : 'VACANT'">Full Name</td>
+            <td> <button class="btn btn-primary"
+                         th:onclick="'javascript:startReservation(' + ${roomReservation.roomId} + ')'"
+                         >Reserve</button> </td>
         </tr>
     </table>
+    <div class="modal fade" id="reservationModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Room Reservations</h4>
+                </div>
+                <div class="modal-body">
+                    <h2>Guest: </h2>
+                    <select name="reservationGuestId" id="reservationGuestId" >
+                        <option   th:value="${guest.id}" th:text="${guest.firstName}+' '+${guest.lastName}"
+                                  th:each="guest : ${guests}"></option>
+                    </select>
+                    <input type="hidden" id="reservationRoomId" />
+                    <input type="hidden" id="reservationDatepicker" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="reserveRoom()">Confirm reservation</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div class="modal fade" id="registerGuestModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Room Reservations</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="guestForm">
+                        <label for="">First name:</label>
+                        <input type="text" id="firstName"/>
+                        <label for="">Last name:</label>
+                        <input type="text" id="lastName"/>
+                        <label for="">Email:</label>
+                        <input type="text" id="email" />
+                        <label for="">Address:</label>
+                        <input type="text" id="address" />
+                        <label for="">Country:</label>
+                        <input type="text" id="country" />
+                        <label for="">State:</label>
+                        <input type="text" id="state" />
+                        <label for="">Phone number:</label>
+                        <input type="text" id="phone" />
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="createGuest()">Create guest</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 </div>
 <footer class="footer navbar-inverse navbar-fixed-bottom">
     <div class="container">

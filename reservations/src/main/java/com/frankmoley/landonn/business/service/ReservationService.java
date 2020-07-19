@@ -1,5 +1,6 @@
 package com.frankmoley.landonn.business.service;
 
+import com.frankmoley.landon.business.ReservationRequest;
 import com.frankmoley.landon.business.RoomReservation;
 import com.frankmoley.landon.data.entity.Guest;
 import com.frankmoley.landon.data.entity.Reservation;
@@ -44,6 +45,20 @@ public class ReservationService {
         return date;
     }
 
+    public boolean makeReservation(ReservationRequest request){
+
+        try {
+            Reservation reservation= new Reservation();
+            reservation.setGuestId(request.getGuestId());
+            reservation.setRoomId(request.getRoomId());
+            reservation.setDate(new java.sql.Date(createDateFromDateString(request.getDateString()).getTime()));
+            reservation= this.reservationRepository.save(reservation);
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
     public List<RoomReservation> getRoomReservationsForDate(String dateString){
         Date date = createDateFromDateString(dateString);
         Iterable<Room> rooms=this.roomRepository.findAll();
@@ -76,5 +91,39 @@ List<RoomReservation> roomReservations=new ArrayList<>();
         }
         return roomReservations;
     }
+/*
+    public List<RoomReservation> getRoomReservationsForDateRange(String to){
+        Date dateFrom = createDateFromDateString(from);
+        Date dateTo = createDateFromDateString(to);
+        Iterable<Room> rooms=this.roomRepository.findAll();
+        Map<Long,RoomReservation> roomReservationMap= new HashMap<>();
+        rooms.forEach(room -> {
+            RoomReservation roomReservation= new RoomReservation();
+            roomReservation.setRoomId(room.getId());
+            roomReservation.setRoomName(room.getName());
+            roomReservation.setRoomNumber(room.getNumber());
+            roomReservationMap.put(room.getId(),roomReservation);
+        });
+        Iterable<Reservation> reservations = this.reservationRepository.findByDate(new java.sql.Date(date.getTime()));
+        if(null!=reservations){
+            reservations.forEach(reservation -> {
+                Optional<Guest> guestResponse= this.guestRepository.findById(reservation.getGuestId());
+                if(guestResponse.isPresent()){
+                    Guest guest=guestResponse.get();
+                    RoomReservation roomReservation=roomReservationMap.get(reservation.getRoomId());
+                    roomReservation.setDate(date);
+                    roomReservation.setFirstName(guest.getFirstName());
+                    roomReservation.setLastName(guest.getLastName());
+                    roomReservation.setGuestId(guest.getId());
+
+                }
+            });
+        }
+List<RoomReservation> roomReservations=new ArrayList<>();
+        for (long roomId: roomReservationMap.keySet()){
+            roomReservations.add(roomReservationMap.get(roomId));
+        }
+        return roomReservations;
+    }*/
 }
 
