@@ -1,0 +1,254 @@
+[
+  {
+    "roomId": 1,
+    "guestId": 0,
+    "roomName": "Piccadilly",
+    "roomNumber": "P1",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 2,
+    "guestId": 0,
+    "roomName": "Piccadilly",
+    "roomNumber": "P2",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 3,
+    "guestId": 0,
+    "roomName": "Piccadilly",
+    "roomNumber": "P3",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 4,
+    "guestId": 0,
+    "roomName": "Piccadilly",
+    "roomNumber": "P4",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 5,
+    "guestId": 0,
+    "roomName": "Piccadilly",
+    "roomNumber": "P5",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 6,
+    "guestId": 0,
+    "roomName": "Piccadilly",
+    "roomNumber": "P6",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 7,
+    "guestId": 0,
+    "roomName": "Cambridge",
+    "roomNumber": "C1",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 8,
+    "guestId": 200,
+    "roomName": "Cambridge",
+    "roomNumber": "C2",
+    "firstName": "Judith",
+    "lastName": "Young",
+    "date": 1483246800000
+  },
+  {
+    "roomId": 9,
+    "guestId": 0,
+    "roomName": "Cambridge",
+    "roomNumber": "C3",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 10,
+    "guestId": 0,
+    "roomName": "Westminster",
+    "roomNumber": "W1",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 11,
+    "guestId": 0,
+    "roomName": "Westminster",
+    "roomNumber": "W2",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 12,
+    "guestId": 0,
+    "roomName": "Westminster",
+    "roomNumber": "W3",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 13,
+    "guestId": 0,
+    "roomName": "Westminster",
+    "roomNumber": "W4",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 14,
+    "guestId": 0,
+    "roomName": "Westminster",
+    "roomNumber": "W5",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 15,
+    "guestId": 0,
+    "roomName": "Westminster",
+    "roomNumber": "W6",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 16,
+    "guestId": 0,
+    "roomName": "Westminster",
+    "roomNumber": "W7",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 17,
+    "guestId": 0,
+    "roomName": "Oxford",
+    "roomNumber": "O1",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 18,
+    "guestId": 0,
+    "roomName": "Oxford",
+    "roomNumber": "O2",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 19,
+    "guestId": 0,
+    "roomName": "Oxford",
+    "roomNumber": "O3",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 20,
+    "guestId": 0,
+    "roomName": "Oxford",
+    "roomNumber": "O4",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 21,
+    "guestId": 0,
+    "roomName": "Oxford",
+    "roomNumber": "O5",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 22,
+    "guestId": 0,
+    "roomName": "Victoria",
+    "roomNumber": "V1",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 23,
+    "guestId": 0,
+    "roomName": "Victoria",
+    "roomNumber": "V2",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 24,
+    "guestId": 0,
+    "roomName": "Victoria",
+    "roomNumber": "V3",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 25,
+    "guestId": 0,
+    "roomName": "Manchester",
+    "roomNumber": "M1",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 26,
+    "guestId": 0,
+    "roomName": "Manchester",
+    "roomNumber": "M2",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 27,
+    "guestId": 0,
+    "roomName": "Manchester",
+    "roomNumber": "M3",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  },
+  {
+    "roomId": 28,
+    "guestId": 0,
+    "roomName": "Manchester",
+    "roomNumber": "M4",
+    "firstName": null,
+    "lastName": null,
+    "date": null
+  }
+]

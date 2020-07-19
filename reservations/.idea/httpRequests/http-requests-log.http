@@ -1,0 +1,323 @@
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T104935.200.json
+
+###
+
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T104649.200.json
+
+###
+
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T104403.200.json
+
+###
+
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T104249.200.json
+
+###
+
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T104143.200.json
+
+###
+
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T104015.200.json
+
+###
+
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T103900.200.json
+
+###
+
+GET http://localhost:8080/reservations
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T103544.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T094503.200.json
+
+###
+
+GET http://localhost:8080/rooms?roomNumber=P1
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T094454.200.json
+
+###
+
+GET http://localhost:8080/rooms?roomNumber=P1
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T093016.200.json
+
+###
+
+GET http://localhost:8080/rooms?roomNumber=P1
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T093015.200.json
+
+###
+
+GET http://localhost:8080/rooms?roomNumber=P1
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T093014.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092948.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092752.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092457.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092218-3.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092218-2.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092218-1.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092218.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092217-4.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092217-3.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092217-2.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092217-1.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092217.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092216-4.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092216-3.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092216-2.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092216-1.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092216.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092215.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092214.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092101.200.json
+
+###
+
+GET http://localhost:8080/rooms?roomNumber=P1
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092049.200.json
+
+###
+
+GET http://localhost:8080/rooms?roomNumber=P1
+Accept: */*
+Cache-Control: no-cache
+:
+
+<> 2020-07-17T092009.200.json
+
+###
+
+GET http://localhost:8080/rooms
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-07-17T091511.200.json
+
+###
+

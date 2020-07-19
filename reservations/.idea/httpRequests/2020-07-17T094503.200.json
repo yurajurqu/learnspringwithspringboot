@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Piccadilly",
+    "number": "P1",
+    "bedInfo": "1Q"
+  },
+  {
+    "id": 2,
+    "name": "Piccadilly",
+    "number": "P2",
+    "bedInfo": "1Q"
+  },
+  {
+    "id": 3,
+    "name": "Piccadilly",
+    "number": "P3",
+    "bedInfo": "1Q"
+  },
+  {
+    "id": 4,
+    "name": "Piccadilly",
+    "number": "P4",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 5,
+    "name": "Piccadilly",
+    "number": "P5",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 6,
+    "name": "Piccadilly",
+    "number": "P6",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 7,
+    "name": "Cambridge",
+    "number": "C1",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 8,
+    "name": "Cambridge",
+    "number": "C2",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 9,
+    "name": "Cambridge",
+    "number": "C3",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 10,
+    "name": "Westminster",
+    "number": "W1",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 11,
+    "name": "Westminster",
+    "number": "W2",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 12,
+    "name": "Westminster",
+    "number": "W3",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 13,
+    "name": "Westminster",
+    "number": "W4",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 14,
+    "name": "Westminster",
+    "number": "W5",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 15,
+    "name": "Westminster",
+    "number": "W6",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 16,
+    "name": "Westminster",
+    "number": "W7",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 17,
+    "name": "Oxford",
+    "number": "O1",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 18,
+    "name": "Oxford",
+    "number": "O2",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 19,
+    "name": "Oxford",
+    "number": "O3",
+    "bedInfo": "1Q"
+  },
+  {
+    "id": 20,
+    "name": "Oxford",
+    "number": "O4",
+    "bedInfo": "1Q"
+  },
+  {
+    "id": 21,
+    "name": "Oxford",
+    "number": "O5",
+    "bedInfo": "1Q"
+  },
+  {
+    "id": 22,
+    "name": "Victoria",
+    "number": "V1",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 23,
+    "name": "Victoria",
+    "number": "V2",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 24,
+    "name": "Victoria",
+    "number": "V3",
+    "bedInfo": "2D"
+  },
+  {
+    "id": 25,
+    "name": "Manchester",
+    "number": "M1",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 26,
+    "name": "Manchester",
+    "number": "M2",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 27,
+    "name": "Manchester",
+    "number": "M3",
+    "bedInfo": "1K"
+  },
+  {
+    "id": 28,
+    "name": "Manchester",
+    "number": "M4",
+    "bedInfo": "1K"
+  }
+]
